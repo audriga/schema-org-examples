@@ -1,0 +1,26 @@
+{
+    "reservationFor": {
+        "departureTime": "2022-01-16T12:50:00+00:00",
+        "@type": "TrainTrip",
+        "arrivalTime": "2022-01-16T14:27:00+00:00",
+        "trainName": "",
+        "departureStation": {
+            "@type": "TrainStation",
+            "name": "Nottingham"
+        },
+        "trainNumber": "",
+        "arrivalStation": {
+            "@type": "TrainStation",
+            "name": "London St Pancras International"
+        },
+        "underName": {
+            "@type": "Person",
+            "name": ""
+        }
+    },
+    "reservationId": "ZJ391234 , 01/16/2022 12:50",
+    "@type": "TrainReservation",
+    "reservationNumber": "ZJ391234",
+    "@context": "http://schema.org",
+    "reservationStatus": "http://schema.org/ReservationConfirmed"
+}

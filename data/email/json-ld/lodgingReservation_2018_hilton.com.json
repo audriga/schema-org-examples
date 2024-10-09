@@ -1,0 +1,31 @@
+{
+    "reservationFor": {
+        "address": {
+            "addressCountry": "US",
+            "streetAddress": "900 Plantation Rd",
+            "@type": "PostalAddress",
+            "postalCode": "24060",
+            "addressLocality": "Blacksburg",
+            "addressRegion": "VA"
+        },
+        "@type": "LodgingBusiness",
+        "name": "Hilton Garden Inn Blacksburg",
+        "telephone": "540-555-5555",
+        "url": "https://test.hilton.com/en/index.html"
+    },
+    "checkinTime": "2018-03-05T15:00:00-07:00",
+    "numAdults": 1,
+    "@type": "LodgingReservation",
+    "checkinUrl": "https://test.hilton.com/en/hh/customer/login/index.htm",
+    "@context": "http://schema.org",
+    "lodgingUnitDescription": "Luxury Room",
+    "numChildren": 0,
+    "reservationNumber": "1234567",
+    "confirmReservationUrl": "https://test.hilton.com/en/index.html",
+    "checkoutTime": "2018-03-06T11:00:00-07:00",
+    "reservationStatus": "http://schema.org/Confirmed",
+    "underName": {
+        "@type": "Person",
+        "name": "John Doe"
+    }
+}

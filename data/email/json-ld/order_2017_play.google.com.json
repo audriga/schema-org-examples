@@ -1,0 +1,34 @@
+{
+    "seller": {
+        "@type": "http://schema.org/Organization",
+        "name": "Threema GmbH"
+    },
+    "orderNumber": "GPA.12345",
+    "itemOffered": {
+        "image": "https://lh3.googleusercontent.com/OAvlKtke2GExGkWo3vbGPurbkA64eeSVYJyG3D0e2cYf92M_6l5wiDHYZXY-ecVh7_s0",
+        "@type": "http://schema.org/Product/DigitalProduct",
+        "name": "Threema"
+    },
+    "@type": "http://schema.org/Order",
+    "price": "2,99 \u20ac",
+    "potentialAction": {
+        "@type": "http://schema.org/ViewAction",
+        "target": "android-app://com.android.vending/https/play.google.com/store/account?feature=gp_receipt"
+    },
+    "merchant": {
+        "@type": "http://schema.org/Organization",
+        "name": "Google Play"
+    },
+    "acceptedOffer": {
+        "seller": {
+            "@type": "http://schema.org/Organization",
+            "name": "Threema GmbH"
+        },
+        "itemOffered": {
+            "image": "https://lh3.googleusercontent.com/OAvlKtke2GExGkWo3vbGPurbkA64eeSVYJyG3D0e2cYf92M_6l5wiDHYZXY-ecVh7_s0",
+            "@type": "http://schema.org/Product/DigitalProduct",
+            "name": "Threema"
+        },
+        "@type": "http://schema.org/Offer"
+    }
+}

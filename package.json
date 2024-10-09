@@ -1,0 +1,19 @@
+{
+  "name": "schema-org-examples",
+  "version": "1.0.0-beta.1",
+  "description": "Schema.org example data",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/audriga/schema-org-examples.git"
+  },
+  "keywords": [
+    "schema.org",
+    "json-ld",
+    "microdata"
+  ],
+  "author": "audriga GmbH",
+  "license": "MIT"
+}

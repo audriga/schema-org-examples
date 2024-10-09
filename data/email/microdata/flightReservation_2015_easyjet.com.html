@@ -1,0 +1,50 @@
+    <!-- Multiple passenger data. -->
+        <!-- ReservationPackage schema type. -->
+        <div itemscope itemtype="http://schema.org/ReservationPackage">               
+                <!-- Multiple Flights data, includes outboud and return. -->
+                    <!-- FlightReservation schema type. -->
+                    <div itemscope itemtype="http://schema.org/FlightReservation">
+                        <!-- Booking data. -->
+                        <meta itemprop="reservationNumber" content="ABCSDE"/>
+
+                        <!-- Passenger data. -->
+                        <div itemprop="underName" itemscope itemtype="http://schema.org/Person">
+                            <meta itemprop="name" content="Hr. PETER MEIER"/>
+                        </div>
+
+                        <!-- Flight data. -->
+                        <div itemprop="reservationFor" itemscope itemtype="http://schema.org/Flight">
+                            <meta itemprop="flightNumber" content="7582"/>
+
+                            <!-- Airline data. -->
+                            <div itemprop="airline" itemscope itemtype="http://schema.org/Airline">
+                                <meta itemprop="name" content="easyJet"/>
+                                <meta itemprop="iataCode" content="EZY"/>
+                            </div>
+
+                            <!-- Aiport data (departure). -->
+                            <div itemprop="departureAirport" itemscope itemtype="http://schema.org/Airport">
+                                <meta itemprop="name" content="Stuttgart"/>
+                                <meta itemprop="iataCode" content="STR"/>
+                            </div>
+                            <!-- ISO8601 format = 2017-03-04T11:00:00-05:00 -->
+                            <meta itemprop="departureTime" content="2015-07-24T11:10:00+01:00"/> 
+
+                            <meta itemprop="departureTerminal" content=""/>
+                            
+                            <!-- Aiport data (arrival). -->
+                            <div itemprop="arrivalAirport" itemscope itemtype="http://schema.org/Airport">
+                                <meta itemprop="name" content="Porto"/>
+                                <meta itemprop="iataCode" content="OPO"/>
+                            </div>
+                            <!-- ISO8601 format = 2017-03-04T11:00:00-05:00 -->
+                            <meta itemprop="arrivalTime" content="2015-07-24T12:50:00+01:00"/>
+
+                            <meta itemprop="arrivalTerminal" content=""/>
+                            
+                        </div>
+
+                        <!-- Additional important info -->
+                        <meta itemprop="additionalTicketText" content=""/>
+                    </div>
+        </div>

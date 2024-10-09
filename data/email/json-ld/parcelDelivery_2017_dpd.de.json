@@ -1,0 +1,7 @@
+{
+    "hasDeliveryMethod": "http://schema.org/ParcelService",
+    "trackingUrl": "https://www.parcel-info-test.de/redirect.aspx?action=1&pno=123456789123456789123456789&zip=01234&locale=de_DE",
+    "@type": "ParcelDelivery",
+    "partOfOrder": {"orderStatus": "http://schema.org/OrderInTransit"},
+    "@context": "http://schema.org"
+}

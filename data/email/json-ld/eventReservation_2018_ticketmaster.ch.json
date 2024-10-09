@@ -1,0 +1,34 @@
+[
+  {
+    "@context": "http://schema.org",
+    "@type": "EventReservation",
+    "reservationNumber": "17993",
+    "reservationStatus": "Purchased",
+    "action": {
+      "@type": "ViewAction",
+      "name": "View My Tickets",
+      "url": "https://www.ticketmaster.ch/myAccount/upcomingEvents"
+    },
+    "reservationFor": {
+      "@type": "Event",
+      "name": "The Chainsmokers",
+      "startDate": "2018-02-26T20:00:00+00:00",
+      "location": {
+        "@type": "Place",
+        "name": "Samsung Hall",
+        "address": {
+          "@type": "PostalAddress",
+          "addressCountry": "Schweiz",
+          "addressLocality": "Zürich",
+          "postalCode": "8600",
+          "streetAddress": "Hoffnigstrasse 1"
+        }
+      }
+    },
+    "underName": {
+      "@type": "Person",
+      "familyName": "Meier",
+      "givenName": "Jörg"
+    }
+  }
+]

@@ -1,0 +1,30 @@
+{
+    "reservationFor": {
+        "image": "https://q-xx.bstatic.com/images/hotel/square200/251/251081276.jpg",
+        "address": {
+            "addressCountry": "de",
+            "streetAddress": "Erzbergerstr. 53, Nord-Holland, 34117 Kassel, Deutschland",
+            "@type": "PostalAddress",
+            "postalCode": "34117",
+            "addressLocality": "Kassel",
+            "addressRegion": "Kassel"
+        },
+        "@type": "LodgingBusiness",
+        "name": "Hotel Schillerquartier",
+        "telephone": "+49 561 12345",
+        "url": "https://test.booking.com/hotel/de/schillerquartier.de.html?label=XXXX;bn=123456;senddate=2022-08-03&"
+    },
+    "modifiedTime": "2027-05-01T08:00:00+00:00",
+    "checkoutDate": "2022-08-14T07:00:00+00:00",
+    "modifyReservationUrl": "https://test.booking.com/myreservations.de.html?bn=123456;pincode=555",
+    "@type": "LodgingReservation",
+    "reservationNumber": "123456",
+    "checkinDate": "2022-08-13T12:00:00+00:00",
+    "@context": "http://schema.org",
+    "reservationStatus": "http://schema.org/Confirmed",
+    "underName": {
+        "@type": "Person",
+        "name": "John Doe",
+        "email": "john@test.doe.com"
+    }
+}

@@ -1,0 +1,36 @@
+{
+    "reservationFor": {
+        "image": "https://cdn.worldota.net/t/x500/content/67/44/6744d3418031303e28b7cf6e58e29e73aec1ffa8.jpeg",
+        "address": {
+            "addressCountry": "FR",
+            "streetAddress": "28 Avenue Corentin Cariou, Paris",
+            "@type": "PostalAddress",
+            "addressLocality": "Paris"
+        },
+        "@type": "LodgingBusiness",
+        "name": "Le ReMIX Hotel",
+        "telephone": "+3312345"
+    },
+    "bookingAgent": {
+        "@type": "Organization",
+        "name": "ZenHotels.com",
+        "url": "https://zenhotels.com"
+    },
+    "modifiedTime": "2022-12-13T10:07:16.172542",
+    "numAdults": 1,
+    "@type": "LodgingReservation",
+    "checkinDate": "2022-12-14T15:00:00",
+    "@context": "http://schema.org",
+    "url": "https://test.zenhotels.com/orders/success/aaaaa-34d9-4ae2-98f0-c9425908e3d4/?autologin_token=xxxx&utm_campaign=vaucher&utm_medium=email&utm_source=transaction&utm_content=payment_button&user_id=123",
+    "priceCurrency": "EUR",
+    "checkoutDate": "2022-12-15T12:00:00",
+    "modifyReservationUrl": "https://test.zenhotels.com/orders/success/aaaaa-34d9-4ae2-98f0-c9425908e3d4/?autologin_token=xxxx&utm_campaign=vaucher&utm_medium=email&utm_source=transaction&utm_content=payment_button&user_id=123",
+    "price": "\u20ac130.00",
+    "numChildren": 0,
+    "reservationNumber": "C3T7EPABCD",
+    "reservationStatus": "http://schema.org/Confirmed",
+    "underName": {
+        "@type": "Person",
+        "name": "John Doe"
+    }
+}

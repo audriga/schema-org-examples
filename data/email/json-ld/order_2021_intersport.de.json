@@ -1,0 +1,36 @@
+{
+    "priceCurrency": "EUR",
+    "orderNumber": "12345",
+    "@type": "Order",
+    "price": "",
+    "merchant": {
+        "@type": "Organization",
+        "name": "https://www.intersport.de"
+    },
+    "orderStatus": "http://schema.org/OrderProcessing",
+    "acceptedOffer": [{
+        "seller": {
+            "@type": "Organization",
+            "name": "INTERSPORT Digital GmbH"
+        },
+        "priceCurrency": "EUR",
+        "itemOffered": {
+            "image": "",
+            "@type": "Product",
+            "name": "",
+            "sku": "",
+            "url": "https://test.intersport.de/detail/index/sArticle//number/"
+        },
+        "priceSpecification": {
+            "@type": "PriceSpecification",
+            "validFrom": ""
+        },
+        "@type": "Offer",
+        "price": "",
+        "eligibleQuantity": {
+            "@type": "QuantitativeValue",
+            "value": ""
+        }
+    }],
+    "@context": "http://schema.org"
+}

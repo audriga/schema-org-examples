@@ -1,0 +1,27 @@
+{
+  "merchant": {
+    "@type": "Organization",
+    "name": "someShop"
+  },
+  "orderStatus": "http://schema.org/OrderProcessing",
+  "priceCurrency": "EUR",
+  "orderNumber": 12345,
+  "@context": "http://schema.org",
+  "price": 98,
+  "@type": "Order",
+  "acceptedOffer": [
+    {
+      "eligibleQuantity": {
+        "@type": "QuantitativeValue",
+        "value": 1
+      },
+      "price": 88,
+      "priceCurrency": "EUR",
+      "@type": "Offer",
+      "itemOffered": {
+        "@type": "Product",
+        "name": "Kroko"
+      }
+    }
+  ]
+}

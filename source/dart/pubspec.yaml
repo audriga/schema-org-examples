@@ -1,0 +1,9 @@
+name: schema-org-examples
+version: 1.0.0-beta.1
+description: Schema.org example data
+repository: https://github.org/audriga/schema-org-examples.git
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  path: ^1.8.0
