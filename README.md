@@ -42,7 +42,7 @@ Example files may include data by third parties. This is an Open Source library 
 
 ## Acknowledgements
 
-This project was partially funded through the [NGI0](https://nlnet.nl/core) Core Fund, a fund established by [NLnet](https://nlnet.nl/] with financial support from the European Commission's [Next Generation Internet](https://ngi.eu/) programme, under the aegis of DG Communications Networks, Content and Technology under grant agreement No [101092990](https://cordis.europa.eu/project/id/101092990). Thank you!
+This project was partially funded through the [NGI0](https://nlnet.nl/core) Core Fund, a fund established by [NLnet](https://nlnet.nl/) with financial support from the European Commission's [Next Generation Internet](https://ngi.eu/) programme, under the aegis of DG Communications Networks, Content and Technology under grant agreement No [101092990](https://cordis.europa.eu/project/id/101092990). Thank you!
 
 See also [Structured Email for Roundcube](https://nlnet.nl/project/StructuredEmail/).
 
